@@ -26,7 +26,7 @@ export function registerSettingsTools(
     "crm_create_custom_field",
     {
       title: "Create Custom Field",
-      description: "Create a custom field. data_type options: Single_Line, Multi_Line, Email, Phone, Picklist, Multi_Select_Picklist, Date, DateTime, Number, Currency, Decimal, Percent, Checkbox, URL.",
+      description: "Create a custom field on a Zoho CRM module.",
       inputSchema: {
         module: z.string(),
         field_label: z.string(),
